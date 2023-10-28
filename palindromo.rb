@@ -2,10 +2,10 @@ def palindromo(s)
   s == s.reverse
 end
 
-puts "Ingrese una palabra o frase"
-palabra = gets.chomp
-if palindromo(palabra)
-  puts "#{palabra} es un palíndromo."
+puts "Escreva uma palavra"
+palavra = gets.chomp
+if palindromo(palavra)
+  puts "#{palavra} É um palíndromo."
   else
-    puts "#{palabra} no es un palíndromo."
+    puts "#{palavra} não é um palíndromo."
     end
